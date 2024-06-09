@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FEFEFF"
+    tools:context="com.example.mowt.MainActivity">
+
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="149dp"
+        android:layout_height="35dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toEndOf="@+id/reload"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="106dp"
+        android:layout_height="59dp"
+        android:background="#2196F3"
+        android:gravity="center|center_horizontal"
+        android:text="Wind"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t2"
+        app:layout_constraintVertical_bias="0.046" />
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="106dp"
+        android:layout_height="59dp"
+        android:background="#E91E63"
+        android:gravity="center|center_horizontal"
+        android:text="Inside Temp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reload"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="150dp"
+        android:layout_height="58dp"
+        android:gravity="center|center_horizontal"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toEndOf="@+id/t1"
+        app:layout_constraintTop_toBottomOf="@+id/reload"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="[°C]"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/text1"
+        app:layout_constraintTop_toBottomOf="@+id/text11"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toEndOf="@+id/t2"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="66dp"
+        android:layout_height="58dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="[°C]"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/text2"
+        app:layout_constraintTop_toBottomOf="@+id/text5"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toEndOf="@+id/t3"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="106dp"
+        android:layout_height="59dp"
+        android:background="#2196F3"
+        android:gravity="center|center_horizontal"
+        android:text="Outside Temp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/reload"
+        android:layout_width="46dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#808080"
+        android:text="@string/re"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="363dp"
+        android:layout_height="87dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text=""
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text3"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="229dp"
+        android:layout_height="94dp"
+        android:background="@color/white"
+        android:gravity="center|top"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/switch3"
+        app:layout_constraintTop_toBottomOf="@+id/text13"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="229dp"
+        android:layout_height="32dp"
+        android:background="@color/white"
+        android:gravity="center|top"
+        android:text="外出時におすすめの服装"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/text10"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="133dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:text="長袖"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1" />
+
+    <Switch
+        android:id="@+id/switch5"
+        android:layout_width="133dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:text="半ズボン"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch4" />
+
+    <Switch
+        android:id="@+id/switch4"
+        android:layout_width="133dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:text="長ズボン"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch3" />
+
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="133dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:text="厚手"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch2" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="133dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="半袖"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text10" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="304dp"
+        android:layout_height="31dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="該当する今の服装を選んでください"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.168"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/reload2"
+        android:layout_width="46dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#808080"
+        android:text="@string/re"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toEndOf="@+id/text8"
+        app:layout_constraintTop_toBottomOf="@+id/text4"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="322dp"
+        android:layout_height="30dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="例)長袖の中に半袖を着ていたら半袖と長袖のスイッチ"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text8"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
