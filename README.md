@@ -45,4 +45,4 @@ APIを使ってデータを取得し、Androidアプリで表示([コード2](mo
 夏の状態では、涼しい時間帯や場所で電力を抑えることができる。
 
 ## 参考文献
-「ELTRES アイデアコンテスト2022 常識を飛び越えろ！」受賞アイデア結果発表, [Visit https://iot.sonynetwork.co.jp/column/column051/], (閲覧日： 2024/6/2)
+「ELTRES アイデアコンテスト2022 常識を飛び越えろ！」受賞アイデア結果発表, https://iot.sonynetwork.co.jp/column/column051/, (閲覧日： 2024/6/2)
